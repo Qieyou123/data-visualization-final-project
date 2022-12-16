@@ -1,22 +1,14 @@
----
-title: "README"
-output:
-  pdf_document: default
-  html_document: default
-date: "2022-12-16"
----
-
 You can run this code with RStudio.
 
 This code is based on packages ‘plotly’, ‘shiny’ and ‘ggplot2’. If you haven’t install these packages, you can use the following code to install.
 
-```{r eval=FALSE}
+```
 install.packages(c("plotly","ggplot2", "shiny","bslib"))
 ```
 
 Then open the file 'plot/app.R'. Firstly you are supposed to set the path to the document 'DSAA5024_Group03'. You can use the following code to change the path.
 
-```{r eval=FALSE}
+```
 setwd('.../DSAA5024_Group03/')
 ```
 
@@ -24,7 +16,7 @@ where ... represents where you store our document.
 
 Then you can run the code with two methods. You can run 
 
-```{r eval=FALSE}
+```
 shiny::runApp('plot')
 ```
 
